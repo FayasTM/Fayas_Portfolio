@@ -387,7 +387,7 @@ btn:hover {
 
 .portfolio {
     background: var(--snd-bg-color);
-    padding: 8rem;
+    padding: 5rem 0;
 
 }
 
@@ -398,15 +398,18 @@ btn:hover {
 
 .portfolio-container {
     display: flex;
-    
+    flex-wrap: wrap;
     flex-direction: column; 
+    justify-content: center;
+    gap: 3rem;
     /* gap: 2.5rem;  */
 }
 
 .portfolio-item {
     display: flex;
-    align-items:start;
-    flex-direction: row;
+    /* align-items:flex; */
+    flex-direction: column;
+    flex: 1 1 45%;
     gap: 1rem;
     
 }
@@ -640,6 +643,11 @@ btn:hover {
         text-align: center;
         
     }
+    .portfolio-item {
+        flex: 1 1 100%;
+    }
+
+
     
 }
 
@@ -712,6 +720,10 @@ btn:hover {
 
     .portfolio-container{
         grid-template-columns: repeat(2, 2fr);
+    }
+
+    .portfolio-item{
+        justify-content:space-between;
     }
 
     /* .education-content {

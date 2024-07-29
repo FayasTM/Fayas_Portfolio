@@ -67,7 +67,7 @@ ScrollReveal({
 
  ScrollReveal().reveal('.home-content, heading', {origin: 'top'});
  ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', {origin: 'buttom'});
- ScrollReveal().reveal('.home-content h1, .about-img', {origin: 'left'});
+ ScrollReveal().reveal('.home-content h1, .about-img', {origin: 'left' });
  ScrollReveal().reveal('.home-content p , about-content', {origin: 'right'});
  ScrollReveal().reveal('.skills-box', { origin: 'bottom', distance: '50px', duration: 1000, delay: 100 });
  ScrollReveal().reveal('.education-img ', {origin: 'right'});
