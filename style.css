@@ -713,6 +713,7 @@ btn:hover {
     .about-img img{
         width: 70vw;
         margin-top: 4rem;
+        align-items: center;
     }
 
     .services h2{
@@ -734,9 +735,9 @@ btn:hover {
         padding-right: 2rem;
     }
     
-    .portfolio-box img{
+    /* .portfolio-box img{
         width: 100%;
-    }
+    } */
 
      .education-content {
         text-align: center;
@@ -754,9 +755,9 @@ btn:hover {
         
     }
 
-     .about-img img {
+     /* .about-img img {
         width: 70vw;
-    } 
+    }  */
     .education-content h2{
         text-align: center;
         
