@@ -387,7 +387,7 @@ btn:hover {
 
 .portfolio {
     background: var(--snd-bg-color);
-    padding: 5rem 0;
+    padding: 6rem 2rem;
 
 }
 
@@ -417,6 +417,7 @@ btn:hover {
 .description {
     width: 100%;
     padding-right: 1rem;
+
     
 }
 .portfolio-box {
@@ -629,7 +630,7 @@ btn:hover {
 
     .portfolio{
         padding-bottom: 7rem;
-        padding: 6rem 2rem;
+        
     }
 
     .contact{
@@ -646,6 +647,10 @@ btn:hover {
     }
     .portfolio-item {
         flex: 1 1 100%;
+    }
+
+    .portfolio-box img {
+        width: 100%;
     }
 
 
@@ -743,9 +748,9 @@ btn:hover {
         
     }
 
-    .about-img img {
+    /* .about-img img {
         width: 100%;
-    }
+    } */
     .education-content h2{
         text-align: center;
         
