@@ -731,6 +731,10 @@ btn:hover {
     .portfolio-item{
         justify-content:space-between;
     }
+    
+    .portfolio-box img{
+        width: 100%;
+    }
 
      .education-content {
         text-align: center;
