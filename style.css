@@ -732,7 +732,7 @@ btn:hover {
         justify-content:space-between;
     }
 
-    /* .education-content {
+     .education-content {
         text-align: center;
         padding: 0 2rem ;
         
@@ -740,7 +740,7 @@ btn:hover {
 
     .education-img img {
         width: 100%;
-    } */
+    } 
 
     .about-content {
         text-align: center;
@@ -748,17 +748,13 @@ btn:hover {
         
     }
 
-    /* .about-img img {
+     .about-img img {
         width: 100%;
-    } */
+    } 
     .education-content h2{
         text-align: center;
         
     }
-
-
-
-
 
 }
 
