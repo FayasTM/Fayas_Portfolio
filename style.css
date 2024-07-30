@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -219,13 +217,13 @@ btn:hover {
     align-items: center;
     gap: 15rem;
     width: 100%;
-    padding: 5rem;
+    padding-right: 5rem;
 }
 
 .about-img img {
     width: 30vw;
 
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .about h2{
@@ -252,7 +250,7 @@ btn:hover {
 
 .about-content p {
     font-size: 1.9rem;
-    margin: 2rem 0 ;
+    margin: 2rem 0 3rem;
 }
 
 /* .btn {
@@ -280,7 +278,7 @@ btn:hover {
 
 .education-content h2{
     flex: 1;
-    text-align:left;
+    text-align: left;
     font-size: 3.5rem;
 }
 
@@ -387,45 +385,28 @@ btn:hover {
 
 .portfolio {
     background: var(--snd-bg-color);
-    padding: 6rem 2rem;
-
 }
 
 .portfolio h2 {
     margin-bottom: 4rem;
-    text-align: center;
 }
 
 .portfolio-container {
     display: flex;
-    flex-wrap: wrap;
+    
     flex-direction: column; 
-    justify-content: center;
-    gap: 3rem;
-    /* gap: 2.5rem;  */
+    gap: 2.5rem; 
 }
 
 .portfolio-item {
     display: flex;
-    /* align-items:flex; */
-    flex-direction: column;
-    flex: 1 1 45%;
-    gap: 1rem;
-    
+    align-items:start;
 }
 
 .description {
     width: 100%;
     padding-right: 1rem;
-
     
-}
-.portfolio-box {
-    position: relative;
-    border-radius: 2rem;
-    box-shadow: 0 0 1rem var(--bg-color);
-    overflow: hidden;
-    width: 100%;
 }
 
 .portfolio-container .portfolio-box {
@@ -454,7 +435,7 @@ btn:hover {
     width: 100%;
     height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.1), var(--main-color));
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -589,15 +570,12 @@ btn:hover {
     }
 
     .education-content {
-        text-align: center;
         width: 100%;
-        
+        text-align: center;
     }
 
     .education-img {
-        align-items: center;
         margin-top: 2rem;
-       
     }
 
     .about-section{
@@ -607,15 +585,11 @@ btn:hover {
     }
 
     .about-content{
-        text-align: center;
         width: 100%;
-        padding-left: 2rem;
-
-        
+        text-align: center;
     }
 
     .about-img{
-        align-items: center;
         margin-top: 2rem;
     }
 
@@ -624,7 +598,7 @@ btn:hover {
 
 @media (max-width:991px){
     .header{
-        padding: 1rem 3%;
+        padding: 2rem 3%;
     }
 
     section{
@@ -636,8 +610,7 @@ btn:hover {
     }
 
     .portfolio{
-        padding-bottom: 5rem;
-        
+        padding-bottom: 7rem;
     }
 
     .contact{
@@ -647,41 +620,6 @@ btn:hover {
     .footer{
         padding: 2rem 3%;
     }
-
-    .education-content h2{
-        text-align: center;
-        
-    }
-    .portfolio-item {
-        flex: 1 1 100%;
-    }
-
-    .portfolio-box img {
-        /* align-items: center; */
-        width: 400px;    
-    }
-
-    .logo{
-        font-size: 2.5rem;
-        /* color: var(--text-color);
-        font-weight: 700; */
-        cursor: default;
-     }
-
-      .education-img img{
-        text-align: center;
-        width: 90vw;
-        
-        
-    }
-    .about-img img{
-        width: 90vw;
-        margin-top: 4rem;
-        align-items: center;
-    }
-
-
-    
 }
 
 @media (max-width:768px){
@@ -735,13 +673,11 @@ btn:hover {
 
     .about{
         flex-direction: column;
-        align-items: center;
     }
 
     .about-img img{
-        width: 70vw;
+        width: 90vw;
         margin-top: 4rem;
-        align-items: center;
     }
 
     .services h2{
@@ -752,48 +688,32 @@ btn:hover {
         margin-bottom: 3rem;
     }
 
-
     .portfolio-container{
-        grid-template-columns: repeat(2, 2fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .portfolio-item{
-        justify-content:space-between;
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-    
- 
-
-    /* .portfolio-box img {
-        /* align-items: center; */
-        /* width: 100rem;     */
-    } */
-
-     .education-content {
+    .education-content {
         text-align: center;
         padding: 0 2rem ;
         
     }
 
     .education-img img {
-        width: 70vw;
-    } 
+        width: 100%;
+    }
 
     .about-content {
-        align-items: center;
         text-align: center;
-        
+        padding: 0 2rem ;
         
     }
-/* 
-     .about-img img {
-        width: 70vw;
-    }  */
-    .education-content h2{
-        text-align: center;
-        
+
+    .about-img img {
+        width: 100%;
     }
+
+
+
 
 }
 
@@ -807,21 +727,16 @@ btn:hover {
         margin-top: 8rem;
     }
 
-    /* .about-img img{
+    .about-img img{
         width: 100vw;
         margin-top: 4rem;
 
-    } */
-
-    /* .education-img img{
-        width: 100vw;
-        margin-top: 4rem;
-    } */
-    .education-content h2{
-        text-align: center;
-        
     }
 
+    .education-img img{
+        width: 100vw;
+        margin-top: 4rem;
+    }
   
 }
 
@@ -837,23 +752,15 @@ btn:hover {
     .education-content {
         padding: 0 1rem;
     }
-    
 
-    /* .education-img img {
-        width: 50%;
-    } */
+    .education-img img {
+        width: 100%;
+    }
     
     .about-content {
         padding: 0 1rem;
     }
 
-    /* .about-img img {
-        width:75px;
-    } */
-
-    .education-content h2{
-        text-align: center;
-        
+    .about-img img {
+        width: 100%;
     }
-
-}
