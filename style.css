@@ -645,9 +645,9 @@ btn:hover {
         text-align: center;
         
     }
-    .portfolio-item {
+    /* .portfolio-item {
         flex: 1 1 100%;
-    }
+    } */
 
     .portfolio-box img {
         align-items: center;
@@ -657,7 +657,7 @@ btn:hover {
     }
 
     .logo{
-        font-size: 1.5rem;
+        font-size: 2rem;
         /* color: var(--text-color);
         font-weight: 700; */
         cursor: default;
