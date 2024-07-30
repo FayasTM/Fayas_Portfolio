@@ -597,7 +597,7 @@ btn:hover {
     .education-img {
         align-items: center;
         margin-top: 2rem;
-        width: 90vw;
+       
     }
 
     .about-section{
@@ -609,13 +609,14 @@ btn:hover {
     .about-content{
         text-align: center;
         width: 100%;
+        padding-left: 2rem;
+
         
     }
 
     .about-img{
         align-items: center;
         margin-top: 2rem;
-        width: 90vw;
     }
 
     
@@ -657,7 +658,7 @@ btn:hover {
 
     .portfolio-box img {
         align-items: center;
-        width: 250rem;
+       
        
     }
 
@@ -670,7 +671,7 @@ btn:hover {
 
       .education-img img{
         text-align: center;
-        width: 250rem;
+        
         
     }
 
