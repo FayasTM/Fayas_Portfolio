@@ -657,7 +657,7 @@ btn:hover {
     }
 
     .logo{
-        font-size: 2rem;
+        font-size: 5rem;
         /* color: var(--text-color);
         font-weight: 700; */
         cursor: default;
@@ -665,7 +665,7 @@ btn:hover {
 
       .education-img img{
         text-align: center;
-        width: 100%;
+        width: 55rem;
         
     }
 
