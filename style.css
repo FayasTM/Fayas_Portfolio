@@ -219,7 +219,7 @@ btn:hover {
     align-items: center;
     gap: 15rem;
     width: 100%;
-    padding-right: 5rem;
+    padding: 5rem;
 }
 
 .about-img img {
@@ -252,7 +252,7 @@ btn:hover {
 
 .about-content p {
     font-size: 1.9rem;
-    margin: 2rem 0 3rem;
+    margin: 2rem 0 ;
 }
 
 /* .btn {
