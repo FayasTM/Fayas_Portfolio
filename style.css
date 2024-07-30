@@ -652,15 +652,13 @@ btn:hover {
         text-align: center;
         
     }
-    /* .portfolio-item {
+    .portfolio-item {
         flex: 1 1 100%;
-    } */
+    }
 
     .portfolio-box img {
-        align-items: center;
-        width: 100rem;
-       
-       
+        /* align-items: center; */
+        width: 400px;    
     }
 
     .logo{
@@ -765,8 +763,11 @@ btn:hover {
         padding-right: 2rem;
     }
     
-    /* .portfolio-box img{
-        width: 100%;
+ 
+
+    /* .portfolio-box img {
+        /* align-items: center; */
+        /* width: 100rem;     */
     } */
 
      .education-content {
