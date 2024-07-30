@@ -651,8 +651,7 @@ btn:hover {
 
     .portfolio-box img {
         align-items: center;
-        width: 100%;
-        height: 50%;
+        width: 250rem;
        
     }
 
@@ -665,7 +664,7 @@ btn:hover {
 
       .education-img img{
         text-align: center;
-        width: 55rem;
+        width: 250rem;
         
     }
 
