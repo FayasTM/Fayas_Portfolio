@@ -207,7 +207,7 @@ btn:hover {
     align-items: center;
     gap: 2rem;
     background:#fff;
-    padding: 2rem;
+    padding: 5rem;
    
 }
 
@@ -222,7 +222,6 @@ btn:hover {
 
 .about-img img {
     width: 30vw;
-
     border-radius: 20%;
 }
 
