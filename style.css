@@ -674,6 +674,11 @@ btn:hover {
         
         
     }
+    .about-img img{
+        width: 80vw;
+        margin-top: 4rem;
+        align-items: center;
+    }
 
 
     
