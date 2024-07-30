@@ -773,12 +773,13 @@ btn:hover {
     } 
 
     .about-content {
+        align-items: center;
         text-align: center;
         
         
     }
-
-     /* .about-img img {
+/* 
+     .about-img img {
         width: 70vw;
     }  */
     .education-content h2{
@@ -798,16 +799,16 @@ btn:hover {
         margin-top: 8rem;
     }
 
-    .about-img img{
+    /* .about-img img{
         width: 100vw;
         margin-top: 4rem;
 
-    }
+    } */
 
-    .education-img img{
+    /* .education-img img{
         width: 100vw;
         margin-top: 4rem;
-    }
+    } */
     .education-content h2{
         text-align: center;
         
@@ -830,17 +831,17 @@ btn:hover {
     }
     
 
-    .education-img img {
+    /* .education-img img {
         width: 50%;
-    }
+    } */
     
     .about-content {
         padding: 0 1rem;
     }
 
-    .about-img img {
-        width:50%;
-    }
+    /* .about-img img {
+        width:75px;
+    } */
 
     .education-content h2{
         text-align: center;
