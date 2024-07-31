@@ -207,7 +207,7 @@ btn:hover {
     align-items: center;
     gap: 2rem;
     background:#fff;
-    padding: 5rem;
+    padding: 2rem;
    
 }
 
@@ -217,11 +217,12 @@ btn:hover {
     align-items: center;
     gap: 15rem;
     width: 100%;
-    padding-right: 5rem;
+    padding: 5rem;
 }
 
 .about-img img {
     width: 30vw;
+
     border-radius: 20%;
 }
 
@@ -384,6 +385,7 @@ btn:hover {
 
 .portfolio {
     background: var(--snd-bg-color);
+    
 }
 
 .portfolio h2 {
@@ -763,3 +765,4 @@ btn:hover {
     .about-img img {
         width: 100%;
     }
+}
