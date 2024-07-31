@@ -387,7 +387,8 @@ btn:hover {
 
 .portfolio {
     background: var(--snd-bg-color);
-    padding: 1rem 1rem 1rem 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     
 }
 
@@ -708,6 +709,12 @@ btn:hover {
 
     .portfolio h2{
         margin-bottom: 3rem;
+    }
+    .portfolio {
+        
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
     }
 
     .portfolio-container{
