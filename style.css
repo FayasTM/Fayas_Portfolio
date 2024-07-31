@@ -217,7 +217,7 @@ btn:hover {
     align-items: center;
     /* gap: 15rem; */
     width: 100%;
-    padding: 5rem;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
 .about-img img {
@@ -268,7 +268,7 @@ btn:hover {
     align-items: center;
     /* gap: 15rem; */
     width: 100%;
-    padding: 5rem;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
 .education-content {
