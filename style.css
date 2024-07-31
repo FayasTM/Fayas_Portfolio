@@ -728,7 +728,7 @@ btn:hover {
    
 
     .education-content {
-        text-align: center;
+        text-align: left;
         padding: 0 2rem ;
         
     }
@@ -741,7 +741,7 @@ btn:hover {
     }
 
     .about-content {
-        text-align: center;
+        text-align: left;
         padding: 0 2rem ;
         
     }
