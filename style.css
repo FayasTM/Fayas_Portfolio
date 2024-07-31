@@ -217,7 +217,7 @@ btn:hover {
     align-items: center;
     /* gap: 15rem; */
     width: 100%;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 .about-img img {
@@ -269,7 +269,7 @@ btn:hover {
     align-items: center;
     /* gap: 15rem; */
     width: 100%;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 .education-content {
@@ -387,7 +387,7 @@ btn:hover {
 
 .portfolio {
     background: var(--snd-bg-color);
-    padding: 5rem 5rem 2rem;
+    padding: 1rem 1rem 1rem 1rem;
     
 }
 
