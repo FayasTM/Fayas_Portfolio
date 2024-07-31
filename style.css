@@ -251,6 +251,7 @@ btn:hover {
 .about-content p {
     font-size: 1.9rem;
     margin: 2rem 0 3rem;
+    text-align: left;
 }
 
 /* .btn {
@@ -285,6 +286,7 @@ btn:hover {
 .education-content p {
     font-size: 1.9rem;
     margin: 2rem 0;
+    text-align: left;
     
 }
 
