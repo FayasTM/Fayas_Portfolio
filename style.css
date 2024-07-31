@@ -711,10 +711,8 @@ btn:hover {
         margin-bottom: 3rem;
     }
     .portfolio {
-        
         padding-left: 1rem;
         padding-right: 1rem;
-        
     }
 
     .portfolio-container{
@@ -755,6 +753,12 @@ btn:hover {
 
     .about-img img {
         width: 100%;
+    }
+
+    .footer-iconTop{
+        align-items: self-end;
+        /* padding: .8rem 1rem; */    
+     
     }
 
 
