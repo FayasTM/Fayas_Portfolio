@@ -398,7 +398,7 @@ btn:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: space-between; 
     gap: 3rem;
     /* gap: 2.5rem;  */
 }
@@ -712,11 +712,18 @@ btn:hover {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .portfolio-container .portfolio-box {
+     
+        width: 90%;
+        
+    }
     .portfolio-item{
         justify-content:space-between;
         padding-left: 2rem;
         padding-right: 2rem;
+        flex-direction: column;
     }
+   
 
     .education-content {
         text-align: center;
@@ -726,6 +733,9 @@ btn:hover {
 
     .education-img img {
         width: 100%;
+    }
+    .education-content h2{
+        text-align: center;
     }
 
     .about-content {
