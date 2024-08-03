@@ -738,11 +738,17 @@ btn:hover {
     .education-content {
         text-align: left;
         padding: 0 2rem ;
-        
+       
+    }
+
+    .education-section{
+        gap: 0;
     }
 
     .education-img img {
-        width: 100%;
+        width: 90vw;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .education-content h2{
         text-align: center;
@@ -750,13 +756,13 @@ btn:hover {
 
     .about-content {
         text-align: left;
-        padding: 0 2rem ;
-        
+        /* padding: 0 2rem ;
+         */
     }
 
-    .about-img img {
+    /* .about-img img {
         width: 100%;
-    }
+    } */
 
     .footer-iconTop{
         align-items: self-end;
