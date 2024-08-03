@@ -18,6 +18,7 @@
 
 }
 
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -45,6 +46,7 @@ section{
     align-items: center;
     z-index: 100;
 }
+
 
 .logo{
    font-size: 2.5rem;
@@ -77,6 +79,7 @@ section{
     width: 100%;
     left: 0;
 }
+
 
 /* .navbar a:hover,
 .navbar a.active{
