@@ -63,6 +63,13 @@ section{
     position: relative;
 }
 
+.navbar i{
+    font-size: 15px;
+    padding-left: 2rem;
+    /* position: absolute; */
+  
+}
+
 .navbar a::before {
     content: '';
     position: absolute;

@@ -1,17 +1,20 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Mobile menu toggle
+   
     const menuIcon = document.querySelector('#menu-icon');
     const navbar = document.querySelector('.navbar');
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('header nav a');
     const header = document.querySelector('header');
+    const toggle = document.getElementById('toggleDark')
+    const body =document.querySelector('body');
+    
 
     menuIcon.onclick = () => {
         menuIcon.classList.toggle('fa-xmark');
         navbar.classList.toggle('active');
     }
 
-    // Initialize Typed.js
+    
     new Typed('.typed-text', {
         strings: ["Developer"],
         typeSpeed: 100,
@@ -21,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
         cursorChar: '|'
     });
 
-    // Initialize EmailJS
+
     emailjs.init("fayas0821@gmail.com");
 
     document.getElementById('contact-form').addEventListener('submit', function (event) {
@@ -34,7 +37,6 @@ document.addEventListener('DOMContentLoaded', function () {
             });
     });
 
-    // Scroll behavior
     window.onscroll = () => {
         header.classList.toggle('sticky', window.scrollY > 100);
 
@@ -85,4 +87,5 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('mode-toggle').addEventListener('click', () => {
         document.body.classList.toggle('dark-theme');
     });
-    
+
+});
