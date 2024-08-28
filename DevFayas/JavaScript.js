@@ -16,7 +16,7 @@ toggleButton.addEventListener('click', () => {
     localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
 });
 
-// On page load, check for saved theme preference
+
 window.addEventListener('load', () => {
     if (localStorage.getItem('theme') === 'dark') {
         body.classList.add('dark-mode');
@@ -69,7 +69,7 @@ window.addEventListener('load', () => {
             }
         });
 
-        // Close mobile menu when scrolling
+  
         menuIcon.classList.remove('fa-xmark');
         navbar.classList.remove('active');
     }
@@ -83,7 +83,7 @@ window.addEventListener('load', () => {
 
     ScrollReveal().reveal('.home-content, heading', { origin: 'top' });
     ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
-    ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
+    ScrollReveal().reveal('.home-content h1, .about-img',  { origin: 'left' });
     ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
     ScrollReveal().reveal('.skills-box', { origin: 'bottom', distance: '50px', duration: 100, delay: 100 });
     ScrollReveal().reveal('.education-img', { origin: 'right' });
