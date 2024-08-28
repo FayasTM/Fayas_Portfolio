@@ -830,3 +830,26 @@ btn:hover {
         width: 100%;
     }
 }
+
+label{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    right: auto;
+    top: auto;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+label::before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    right: auto;
+    top: auto;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #000;
+    transition: 0.4s;
+}

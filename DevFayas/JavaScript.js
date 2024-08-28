@@ -6,8 +6,23 @@ document.addEventListener('DOMContentLoaded', function () {
     const navLinks = document.querySelectorAll('header nav a');
     const header = document.querySelector('header');
     const toggle = document.getElementById('toggleDark')
-    const body =document.querySelector('body');
+   
     
+    const toggleButton = document.getElementById('dark-mode-toggle');
+    const body = document.body;
+
+toggleButton.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+    localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
+});
+
+// On page load, check for saved theme preference
+window.addEventListener('load', () => {
+    if (localStorage.getItem('theme') === 'dark') {
+        body.classList.add('dark-mode');
+    }
+});
+
 
     menuIcon.onclick = () => {
         menuIcon.classList.toggle('fa-xmark');
