@@ -756,6 +756,7 @@ btn:hover {
         width: 50vw;
         padding-left: 2rem;
         padding-right: 2rem;
+        height: 50vw;
     }
     .education-content h2{
         text-align: center;
