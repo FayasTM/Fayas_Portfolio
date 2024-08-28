@@ -663,7 +663,7 @@ btn:hover {
     .navbar{
         position: absolute;
         top: 100%;
-        left: 0;
+        right: 0;
         width: 100%;
         padding: 1rem 3%;
         background: var(--bg-color);
@@ -764,14 +764,10 @@ btn:hover {
 
     .about-content {
         text-align: left;
-        /* padding: 0 2rem ;
-         */
+       
     }
 
-    /* .about-img img {
-        width: 100%;
-    } */
-
+ 
     .footer-iconTop{
         align-items: self-end;
         /* padding: .8rem 1rem; */    

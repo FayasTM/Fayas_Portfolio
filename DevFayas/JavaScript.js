@@ -40,17 +40,7 @@ window.addEventListener('load', () => {
     });
 
 
-    emailjs.init("fayas0821@gmail.com");
 
-    document.getElementById('contact-form').addEventListener('submit', function (event) {
-        event.preventDefault();
-        emailjs.sendForm('fayas0821@gmail.com', 'fayas0821@gmail.com', this)
-            .then(function (response) {
-                alert('Message sent successfully!');
-            }, function (error) {
-                alert('Failed to send message.');
-            });
-    });
 
     window.onscroll = () => {
         header.classList.toggle('sticky', window.scrollY > 100);
@@ -74,7 +64,7 @@ window.addEventListener('load', () => {
         navbar.classList.remove('active');
     }
 
-    // Initialize ScrollReveal
+
     ScrollReveal({
         distance: '80px',
         duration: 2000,
@@ -90,7 +80,7 @@ window.addEventListener('load', () => {
     ScrollReveal().reveal('.education-content', { origin: 'left' });
     ScrollReveal().reveal('.about-content', { origin: 'right' });
 
-    // Initialize multiple Typed.js animations
+
     new Typed('.multiple-text', {
         strings: ['Frontend Developer', 'Web Designer', 'YouTuber'],
         typeSpeed: 70,
